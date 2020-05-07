@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-mongoose-one-to-many",
+  "version": "1.0.0",
+  "description": "Mongoose one to many relationship example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "nodejs",
+    "one-to-many",
+    "mongodb"
+  ],
+  "author": "SSI Metrics",
+  "dependencies": {
+    "-": "0.0.1",
+    "balanced-match": "^1.0.0",
+    "core-util-is": "^1.0.2",
+    "mongoose": "^5.7.6"
+  }
+}
