@@ -4,7 +4,7 @@ const sous_tache = mongoose.model(
   "sous_tache",
   new mongoose.Schema({
     label: String,
-    etat : ["Pas mis en oeuvre","En cours","Terminé"],
+    etat : String, //["Pas mis en oeuvre","En cours","Terminé"]
     tache_id: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "tache"

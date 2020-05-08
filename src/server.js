@@ -44,22 +44,22 @@ const createPhase = function(phase) {
    var  phase1= await createPhase({
       nom: "Plan",
       enabled: false,
-      etat : ["Pas mis en oeuvre","En cours","Terminé"]
+      etat : "Pas mis en oeuvre"
     });
     var  phase2= await createPhase({
         nom: "Do",
         enabled: false,
-        etat : ["Pas mis en oeuvre","En cours","Terminé"]
+        etat : "Pas mis en oeuvre"
       });
       var  phase3= await createPhase({
         nom: "Check",
         enabled: false,
-        etat : ["Pas mis en oeuvre","En cours","Terminé"]
+        etat : "Pas mis en oeuvre"
       });
       var  phase4= await createPhase({
         nom: "Act",
         enabled: false,
-        etat : ["Pas mis en oeuvre","En cours","Terminé"]
+        etat : "Pas mis en oeuvre"
       });
 
 /**

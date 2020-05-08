@@ -5,7 +5,7 @@ const phase = mongoose.model(
   new mongoose.Schema({
     nom: String,
     enabled: Boolean,
-    etat : ["Pas mis en oeuvre","En cours","Terminé"]
+    etat : String, //["Pas mis en oeuvre","En cours","Terminé"]
   })
 );
 
