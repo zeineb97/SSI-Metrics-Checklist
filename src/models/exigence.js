@@ -6,7 +6,7 @@ const exigence = mongoose.model(
     nom: String,
     clause: String,
     complete: Boolean,
-    phase : {
+    phase_id : {
       type: mongoose.Schema.Types.ObjectId,
       ref: "phase"
     }
