@@ -184,7 +184,7 @@ const createPhase = function(phase) {
 
 var tache1= await createTache({
   label : "Comprendre l'organisation et son contexte",
-  etat: "pas mis en oeuvre",
+  etat: "terminé",
   clause: "clause 4.1"
 });
 
@@ -195,7 +195,7 @@ tache1 = await getTacheWithPopulate(tache1._id);
 
 var tache2= await createTache({
   label : "Comprendre les besoins et les attentes des parties prenantes",
-  etat: "pas mis en oeuvre",
+  etat: "en cours",
   clause: "clause 4.2"
 });
 
@@ -311,7 +311,7 @@ var sstache1= await createSousTache({
   clause : "clause 4.1",
   date_debut : "2021-12-31T23:00:00.000Z",
    date_fin: "2022-02-28T23:00:00.000Z",
-   etat : "pas mis en oeuvre",
+   etat : "terminé",
    label : "Déterminer les problèmes externes et internes qui sont pertinents pour  l'objectifde l'organisation et qui affectent sa capacité à atteindre les résultats attendues de son SMSI."
 });
 sstache1 =  await addSousTacheToTache(sstache1._id, tache1._id);
@@ -322,7 +322,7 @@ var sstache2= await createSousTache({
   clause : "clause 4.2.1",
   date_debut : "2022-01-01T23:00:00.000Z",
    date_fin: "2022-03-01T23:00:00.000Z",
-   etat : "pas mis en oeuvre",
+   etat : "terminé",
    label : "Déterminer les parties intéressées pertinentes pour le  SMSI"
 });
 sstache2 =  await addSousTacheToTache(sstache2._id, tache2._id);
@@ -332,7 +332,7 @@ var sstache3= await createSousTache({
         clause : "clause 4.2.2",
        date_debut : "2022-01-02T23:00:00.000Z",
         date_fin: "2022-03-02T23:00:00.000Z",
-        etat : "pas mis en oeuvre",
+        etat : "en cours",
         label : "Déterminer les exigences de ces parties intéressées concernant la sécurité de l'information"
 });
 sstache3 =  await addSousTacheToTache(sstache3._id, tache2._id);
@@ -555,7 +555,7 @@ var sstache24= await createSousTache({
   clause : "clause 9.1.5",
        date_debut : "2022-01-23T23:00:00.000Z",
         date_fin: "2022-03-23T23:00:00.000Z",
-        etat : "pas mis en oeuvre",
+        etat : "en cours",
         label : "Déterminer quand les résultats de la surveillance et de la mesure doivent être analysés et évalués"
 });
 sstache24 =  await addSousTacheToTache(sstache24._id, tache8._id);
@@ -566,7 +566,7 @@ var sstache25= await createSousTache({
   clause : "clause 9.1.6",
        date_debut : "2022-01-24T23:00:00.000Z",
         date_fin: "2022-03-24T23:00:00.000Z",
-        etat : "pas mis en oeuvre",
+        etat : "en cours",
         label : "Déterminer qui analysera et évaluera ces résultats"
 });
 sstache25 =  await addSousTacheToTache(sstache25._id, tache8._id);
@@ -577,7 +577,7 @@ var sstache26= await createSousTache({
   clause : "clause 9.2",
   date_debut : "2022-01-25T23:00:00.000Z",
    date_fin: "2022-03-25T23:00:00.000Z",
-   etat : "pas mis en oeuvre",
+   etat : "en cours",
    label : "Audit interne"
 });
 sstache26 =  await addSousTacheToTache(sstache26._id, tache9._id);
@@ -588,7 +588,7 @@ var sstache27= await createSousTache({
   clause : "clause 9.3",
   date_debut : "2022-01-26T23:00:00.000Z",
    date_fin: "2022-03-26T23:00:00.000Z",
-   etat : "pas mis en oeuvre",
+   etat : "en cours",
    label : "Management review"
 });
 sstache27 =  await addSousTacheToTache(sstache27._id, tache10._id);
@@ -599,7 +599,7 @@ var sstache28= await createSousTache({
   clause : "clause 10.2.1",
        date_debut : "2022-01-27T23:00:00.000Z",
         date_fin: "2022-03-27T23:00:00.000Z",
-        etat : "pas mis en oeuvre",
+        etat : "en cours",
         label : "Examiner la non-conformité"
 });
 sstache28 =  await addSousTacheToTache(sstache28._id, tache11._id);
@@ -610,7 +610,7 @@ var sstache29= await createSousTache({
   clause : "clause 10.2.2",
        date_debut : "2022-01-28T23:00:00.000Z",
         date_fin: "2022-03-28T23:00:00.000Z",
-        etat : "pas mis en oeuvre",
+        etat : "en cours",
         label : "Déterminer les causes de la non-conformité"
 });
 sstache29 =  await addSousTacheToTache(sstache29._id, tache11._id);
@@ -621,7 +621,7 @@ var sstache30= await createSousTache({
   clause : "clause 10.2.3",
        date_debut : "2022-01-29T23:00:00.000Z",
         date_fin: "2022-03-29T23:00:00.000Z",
-        etat : "pas mis en oeuvre",
+        etat : "en cours",
         label : "Déterminer si des non-conformités similaires existent ou pourraient se produire"
 });
 sstache30 =  await addSousTacheToTache(sstache30._id, tache11._id);
@@ -632,7 +632,7 @@ var sstache31= await createSousTache({
   clause : "clause 10.4",
   date_debut : "2022-01-30T23:00:00.000Z",
    date_fin: "2022-03-30T23:00:00.000Z",
-   etat : "pas mis en oeuvre",
+   etat : "en cours",
    label : "Examiner l'efficacité de toute mesure corrective prise"
 });
 sstache31 =  await addSousTacheToTache(sstache31._id, tache11._id);
@@ -643,7 +643,7 @@ var sstache32= await createSousTache({
   clause : "clause 10.5",
        date_debut : "2022-01-31T23:00:00.000Z",
         date_fin: "2022-03-31T23:00:00.000Z",
-        etat : "pas mis en oeuvre",
+        etat : "en cours",
         label : "Apporter des modifications au SMSI"
 });
 sstache32 =  await addSousTacheToTache(sstache32._id, tache11._id);
