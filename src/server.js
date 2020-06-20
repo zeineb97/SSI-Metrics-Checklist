@@ -194,7 +194,7 @@ const run = async function () {
 
 	var tache1 = await createTache({
 		label: "Comprendre l'organisation et son contexte",
-		etat: "terminé",
+		etat: "pas mis en oeuvre",
 		clause: "clause 4.1"
 	});
 
@@ -205,7 +205,7 @@ const run = async function () {
 
 	var tache2 = await createTache({
 		label: "Comprendre les besoins et les attentes des parties prenantes",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		clause: "clause 4.2"
 	});
 
@@ -321,7 +321,7 @@ const run = async function () {
 		clause: "clause 4.1",
 		date_debut: "", //"2021-12-31T23:00:00.000Z",
 		date_fin: "", //"2022-02-28T23:00:00.000Z",
-		etat: "terminé",
+		etat: "pas mis en oeuvre",
 		label: "Déterminer les problèmes externes et internes qui sont pertinents pour  l'objectifde l'organisation et qui affectent sa capacité à atteindre les résultats attendues de son SMSI."
 	});
 	sstache1 = await addSousTacheToTache(sstache1._id, tache1._id);
@@ -334,7 +334,7 @@ const run = async function () {
 		clause: "clause 4.2.1",
 		date_debut: "", //"2022-01-01T23:00:00.000Z",
 		date_fin: "", //"2022-03-01T23:00:00.000Z",
-		etat: "terminé",
+		etat: "pas mis en oeuvre",
 		label: "Déterminer les parties intéressées pertinentes pour le  SMSI"
 	});
 	sstache2 = await addSousTacheToTache(sstache2._id, tache2._id);
@@ -346,7 +346,7 @@ const run = async function () {
 		clause: "clause 4.2.2",
 		date_debut: "", //"2022-01-02T23:00:00.000Z",
 		date_fin: "", //"2022-03-02T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Déterminer les exigences de ces parties intéressées concernant la sécurité de l'information"
 	});
 	sstache3 = await addSousTacheToTache(sstache3._id, tache2._id);
@@ -611,7 +611,7 @@ const run = async function () {
 		clause: "clause 9.1.5",
 		date_debut: "", //"2022-01-23T23:00:00.000Z",
 		date_fin: "", //"2022-03-23T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Déterminer quand les résultats de la surveillance et de la mesure doivent être analysés et évalués"
 	});
 	sstache24 = await addSousTacheToTache(sstache24._id, tache8._id);
@@ -624,7 +624,7 @@ const run = async function () {
 		clause: "clause 9.1.6",
 		date_debut: "", //"2022-01-24T23:00:00.000Z",
 		date_fin: "", //"2022-03-24T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Déterminer qui analysera et évaluera ces résultats"
 	});
 	sstache25 = await addSousTacheToTache(sstache25._id, tache8._id);
@@ -637,7 +637,7 @@ const run = async function () {
 		clause: "clause 9.2",
 		date_debut: "", //"2022-01-25T23:00:00.000Z",
 		date_fin: "", //"2022-03-25T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Audit interne"
 	});
 	sstache26 = await addSousTacheToTache(sstache26._id, tache9._id);
@@ -650,7 +650,7 @@ const run = async function () {
 		clause: "clause 9.3",
 		date_debut: "", //"2022-01-26T23:00:00.000Z",
 		date_fin: "", //"2022-03-26T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Management review"
 	});
 	sstache27 = await addSousTacheToTache(sstache27._id, tache10._id);
@@ -663,7 +663,7 @@ const run = async function () {
 		clause: "clause 10.2.1",
 		date_debut: "", //"2022-01-27T23:00:00.000Z",
 		date_fin: "", //"2022-03-27T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Examiner la non-conformité"
 	});
 	sstache28 = await addSousTacheToTache(sstache28._id, tache11._id);
@@ -676,7 +676,7 @@ const run = async function () {
 		clause: "clause 10.2.2",
 		date_debut: "", //"2022-01-28T23:00:00.000Z",
 		date_fin: "", //"2022-03-28T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Déterminer les causes de la non-conformité"
 	});
 	sstache29 = await addSousTacheToTache(sstache29._id, tache11._id);
@@ -689,7 +689,7 @@ const run = async function () {
 		clause: "clause 10.2.3",
 		date_debut: "", //"2022-01-29T23:00:00.000Z",
 		date_fin: "", //"2022-03-29T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Déterminer si des non-conformités similaires existent ou pourraient se produire"
 	});
 	sstache30 = await addSousTacheToTache(sstache30._id, tache11._id);
@@ -702,7 +702,7 @@ const run = async function () {
 		clause: "clause 10.4",
 		date_debut: "", //"2022-01-30T23:00:00.000Z",
 		date_fin: "", //"2022-03-30T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Examiner l'efficacité de toute mesure corrective prise"
 	});
 	sstache31 = await addSousTacheToTache(sstache31._id, tache11._id);
@@ -715,7 +715,7 @@ const run = async function () {
 		clause: "clause 10.5",
 		date_debut: "", //"2022-01-31T23:00:00.000Z",
 		date_fin: "", //"2022-03-31T23:00:00.000Z",
-		etat: "en cours",
+		etat: "pas mis en oeuvre",
 		label: "Apporter des modifications au SMSI"
 	});
 	sstache32 = await addSousTacheToTache(sstache32._id, tache11._id);
